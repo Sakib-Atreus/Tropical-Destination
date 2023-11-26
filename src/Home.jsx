@@ -162,7 +162,7 @@ const Home = () => {
 
                     <p className="font-semibold mt-5">City</p>
                     <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-md" />
-                    <div className="flex gap-5 mt-5 md:pl-44">
+                    <div className="flex gap-5 mt-5 md:pl-44 lg:pl-12">
                         <div className="">
                         <p className="font-semibold">ARRIVAL</p>
                         <input type="text" placeholder="26 November" className="input input-bordered w-full max-w-xs" />
@@ -172,7 +172,7 @@ const Home = () => {
                         <input type="text" placeholder="27 November" className="input input-bordered w-full max-w-xs" />
                         </div>
                     </div>
-                    <div className="flex gap-5 mt-5 md:pl-44">
+                    <div className="flex gap-5 mt-5 md:pl-44 lg:pl-12">
                         <div className="">
                         <p className="font-semibold">STAR</p>
                         <input type="number" placeholder="Type number" className="input input-bordered w-full max-w-xs" />
