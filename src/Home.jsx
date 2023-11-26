@@ -1,3 +1,15 @@
+import group167 from "./../src/assets/Group 167.png";
+import group171 from "./../src/assets/Group 171.png";
+import maskgroup from "./../src/assets/Mask group.png";
+import c1 from "./../src/assets/card-image-1.png";
+import c2 from "./../src/assets/card-image-2.png";
+import c3 from "./../src/assets/card-image-3.png";
+import c4 from "./../src/assets/card-image.png";
+import r19 from "./../src/assets/Rectangle 19.png";
+import r25 from "./../src/assets/Rectangle 25.png";
+import r27 from "./../src/assets/Rectangle 27.png";
+
+
 const Home = () => {
     return (
         <div className="max-w-7xl mx-auto">
@@ -41,27 +53,27 @@ const Home = () => {
                     <a className="btn bg-[#F27A44] mt-12 text-white rounded-full w-36">SIGN UP</a>
                 </div>
                 <div className="flex justify-center">
-                    <img className="w-1/2 h-1/2 mb-12" src="/src/assets/Group 171.png" alt="" />
+                    <img className="w-1/2 h-1/2 mb-12" src={group171} alt="" />
                 </div>
             </section>
             <section className="grid lg:grid-cols-2 md:grid-cols-2 pl-12 lg:pl-0 md:pl-0 gap-5 items-center">
                 <div className="lg:pl-24 md:pl-12">
                     <div className="flex justify-between shadow-md rounded-lg p-3 gap-2 mb-7 w-3/4">
-                        <img className="w-16 h-16 rounded-full" src="/src/assets/Rectangle 19.png" alt="" />
+                        <img className="w-16 h-16 rounded-full" src={r19} alt="" />
                         <div>
                             <h2 className="font-bold">Jenny Wilson</h2>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, itaque!</p>
                         </div>
                     </div>
                     <div className="flex justify-between shadow-md rounded-lg p-3 gap-2 mb-7 w-3/4">
-                        <img className="w-16 h-16 rounded-full" src="/src/assets/Rectangle 25.png" alt="" />
+                        <img className="w-16 h-16 rounded-full" src={r25} alt="" />
                         <div>
                             <h2 className="font-bold">Jenny Wilson</h2>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, itaque!</p>
                         </div>
                     </div>
                     <div className="flex justify-between shadow-md rounded-lg p-3 gap-2 mb-7 w-3/4">
-                        <img className="w-16 h-16 rounded-full" src="/src/assets/Rectangle 27.png" alt="" />
+                        <img className="w-16 h-16 rounded-full" src={r27} alt="" />
                         <div>
                             <h2 className="font-bold">Jenny Wilson</h2>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, itaque!</p>
@@ -87,30 +99,37 @@ const Home = () => {
                 <div className="carousel rounded-box gap-7">
                     <div className="carousel-item fixed">
                         <div>
-                            <img className="w-48 h-48" src="/src/assets/card-image-1.png" alt="Burger" />
+                            <img className="w-48 h-48" src={c1} alt="Burger" />
                             <h1 className="text-lg font-bold">Harvard University</h1>
                             <p className="font-bold text-sm mt-5">Cambridge, UK</p>
                         </div>
                     </div> 
                     <div className="carousel-item">
                         <div>
-                            <img className="w-48 h-48" src="/src/assets/card-image-2.png" alt="Burger" />
+                            <img className="w-48 h-48" src={c2} alt="Burger" />
                             <h1 className="text-lg font-bold">Oxford University</h1>
                             <p className="font-bold text-sm mt-5">England</p>
                         </div>
                     </div> 
                     <div className="carousel-item">
                         <div>
-                            <img className="w-48 h-48" src="/src/assets/card-image-3.png" alt="Burger" />
+                            <img className="w-48 h-48" src={c3} alt="Burger" />
                             <h1 className="text-lg font-bold">Stanford University</h1>
                             <p className="font-bold text-sm mt-5">Stanford, California</p>
                         </div>
                     </div> 
                     <div className="carousel-item">
                         <div>
-                            <img className="w-48 h-48" src="/src/assets/card-image.png" alt="Burger" />
+                            <img className="w-48 h-48" src={c4} alt="Burger" />
                             <h1 className="text-lg font-bold">Nanyang Technology</h1>
                             <p className="font-bold text-sm mt-5">Singapore</p>
+                        </div>
+                    </div> 
+                    <div className="carousel-item">
+                        <div>
+                            <img className="w-48 h-48" src={c1} alt="Burger" />
+                            <h1 className="text-lg font-bold">Information Technology</h1>
+                            <p className="font-bold text-sm mt-5">Australia</p>
                         </div>
                     </div> 
                 </div>
@@ -130,12 +149,12 @@ const Home = () => {
                     <a className="btn bg-[#F27A44] mt-12 text-white rounded-full w-36">Explore More</a>
                 </div>
                 <div className="flex justify-center">
-                    <img className="w-1/2 h-1/2 mb-12" src="/src/assets/Mask group.png" alt="" />
+                    <img className="w-1/2 h-1/2 mb-12" src={maskgroup} alt="" />
                 </div>
             </section>
             <section className="grid lg:grid-cols-2 md:grid-cols-1 p-2 lg:p-0 items-center mb-12">
                 <div className="flex justify-center">
-                    <img className="w-1/2 h-1/2 mb-12" src="/src/assets/Group 167.png" alt="" />
+                    <img className="w-1/2 h-1/2 mb-12" src={group167} alt="" />
                 </div>
                 <div className="lg:pl-24 md:text-center">
                     <h1 className="text-2xl font-bold mb-4">Book now</h1>
@@ -172,7 +191,7 @@ const Home = () => {
                 <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 p-4 lg:p-0 md:p-4 text-center gap-5">
                     <div className="">
                         <div>
-                            <img className="w-16 h-16 ml-36 mb-2" src="/src/assets/Mask group.png" alt="" />
+                            <img className="w-16 h-16 ml-36 mb-2" src={maskgroup} alt="" />
                         </div>
                         <div>
                             <h1 className="font-semibold mb-5">Corey Korsgaard</h1>
@@ -180,12 +199,12 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="">
-                        <img className="w-16 h-16 ml-36 mb-2" src="/src/assets/Group 171.png" alt="" />
+                        <img className="w-16 h-16 ml-36 mb-2" src={group171} alt="" />
                         <h1  className="font-semibold mb-5">Corey Korsgaard</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis reprehenderit, dignissimos quod officia!</p>
                     </div>
                     <div className="">
-                        <img className="w-16 h-16 ml-36 mb-2" src="/src/assets/Group 167.png" alt="" />
+                        <img className="w-16 h-16 ml-36 mb-2" src={group167} alt="" />
                         <h1 className="font-semibold mb-5">Corey Korsgaard</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis reprehenderit, dignissimos quod officia!</p>
                     </div>
